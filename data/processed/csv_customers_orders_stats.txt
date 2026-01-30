@@ -1,0 +1,15 @@
+Customer Orders Statistics
+------------------------------
+Count: 100 orders
+Minimum: $13.21
+Maximum: $997.35
+Mean: $497.66
+
+
+Total Order Amount by State
+------------------------------
+California: $13241.73
+Florida: $5963.24
+Ilinois: $11716.57
+New York: $8673.96
+Texas: $10170.51

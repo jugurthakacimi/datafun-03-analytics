@@ -75,7 +75,7 @@ def extract_csv_orders(
                 continue
 
             amounts.append(amount)
-            state_totals[state] = state_totals[state] + amount
+            state_totals[state] = state_totals.get(state, 0.0) + amount
 
     return amounts, state_totals
 
@@ -119,11 +119,11 @@ def load_stats_report(
         f.write("Customer Orders Statistics\n")
         f.write("-" * 30 + "\n")
 
-        f.write(f"Count: {int(stats['count'])}\n")
-        f.write(f"Minimum: {stats['min']:.2f}\n")
-        f.write(f"Maximum: {stats['max']:.2f}\n")
-        f.write(f"Mean: {stats['mean']:.2f}\n")
-
+        f.write(f"Count: {int(stats['count'])} orders\n")
+        f.write(f"Minimum: ${stats['min']:.2f}\n")
+        f.write(f"Maximum: ${stats['max']:.2f}\n")
+        f.write(f"Mean: ${stats['mean']:.2f}\n")
+        f.write("\n\n")
         f.write("Total Order Amount by State\n")
         f.write("-" * 30 + "\n")
 
