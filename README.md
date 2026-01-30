@@ -135,14 +135,14 @@ In the same VS Code terminal, run any Python source files:
 
 ```shell
 uv run python src/datafun_03_analytics/app_case.py
-uv run python src/datafun_03_analytics/app_yourname.py
+uv run python src/datafun_03_analytics/app_jugurtha.py
 ```
 
 OR: Run them as modules (preferred):
 
 ```shell
 uv run python -m datafun_03_analytics.app_case
-uv run python -m datafun_03_analytics.app_yourname
+uv run python -m datafun_03_analytics.app_jugurtha
 ```
 
 For more see: [Running Python Reliably](https://jugurthakacimi.github.io/pro-analytics-02/06-python/running-python/).
