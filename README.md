@@ -52,7 +52,7 @@ There are three workflows for analytics projects.
 ## 01: Set Up Machine (Once Per Machine)
 
 Follow the detailed instructions at:
-[**01. Set Up Your Machine**](https://denisecase.github.io/pro-analytics-02/01-set-up-machine/)
+[**01. Set Up Your Machine**](https://jugurthakacimi.github.io/pro-analytics-02/01-set-up-machine/)
 
 🛑 All steps must be completed and verified successfully.
 
@@ -69,7 +69,7 @@ Follow the detailed instructions at:
 3. Clone to local: Open a **machine terminal** in your **`Repos`** folder and clone your new repo.
 
   ```shell
-  git clone https://github.com/YOURACCOUNT/datafun-03-analytics
+  git clone https://github.com/jugurthakacimi/datafun-03-analytics
   ```
 
 4. Open project in VS Code: Change directory into the repo and open the project in VS Code by running `code .` ("code dot"):
@@ -107,14 +107,14 @@ uvx pre-commit run --all-files
 ```
 
 Fore more detailed instructions and troubleshooting, see the pro guide at:
-[**02. Set Up Your Project**](https://denisecase.github.io/pro-analytics-02/02-set-up-project/)
+[**02. Set Up Your Project**](https://jugurthakacimi.github.io/pro-analytics-02/02-set-up-project/)
 
 🛑 Do not continue until all REQUIRED steps are complete and verified.
 
 ## 03: Daily Workflow (Working With Python Project Code)
 
 Follow the detailed instructions at:
-[**03. Daily Workflow**](https://denisecase.github.io/pro-analytics-02/03-daily-workflow/)
+[**03. Daily Workflow**](https://jugurthakacimi.github.io/pro-analytics-02/03-daily-workflow/)
 
 Commands are provided below to:
 
@@ -145,7 +145,7 @@ uv run python -m datafun_03_analytics.app_case
 uv run python -m datafun_03_analytics.app_yourname
 ```
 
-For more see: [Running Python Reliably](https://denisecase.github.io/pro-analytics-02/06-python/running-python/).
+For more see: [Running Python Reliably](https://jugurthakacimi.github.io/pro-analytics-02/06-python/running-python/).
 
 If a command fails, verify:
 
@@ -180,7 +180,7 @@ git commit -m "update"
 git push -u origin main
 ```
 
-Additional details and troubleshooting are available in the [Pro-Analytics-02 Documentation](https://denisecase.github.io/pro-analytics-02/).
+Additional details and troubleshooting are available in the [Pro-Analytics-02 Documentation](https://jugurthakacimi.github.io/pro-analytics-02/).
 
 ---
 
@@ -190,7 +190,7 @@ Additional details and troubleshooting are available in the [Pro-Analytics-02 Do
 
 Open [mkdocs.yaml](./mkdocs.yaml).
 This file configures the associated project documentation website (powered by MkDocs)
-Use CTRL+f to find each occurrence of the source GitHub account (e.g. `denisecase`).
+Use CTRL+f to find each occurrence of the source GitHub account (e.g. `jugurthakacimi`).
 Change each occurrence to point to your GitHub account instead (spacing and capitalization MUST match the URL of your GitHub account **exactly**.)
 
 ### Project Task 2. Personalize Your Python File
@@ -241,7 +241,7 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
 ## Resources
 
-- [Pro-Analytics-02](https://denisecase.github.io/pro-analytics-02/) - guide to professional Python
+- [Pro-Analytics-02](https://jugurthakacimi.github.io/pro-analytics-02/) - guide to professional Python
 - [ANNOTATIONS.md](./ANNOTATIONS.md) - REQ/WHY/OBS annotations used
 - [INSTRUCTORS.md](./docs/root/INSTRUCTORS.md) - guidance and notes for instructors and maintainers
 - [POLICIES.md](./docs/root/POLICIES.md) - project rules and expectations that apply to all contributors
